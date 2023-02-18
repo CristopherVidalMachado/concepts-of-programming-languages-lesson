@@ -4,8 +4,8 @@
 - Writeability How easily a language can be used to create programs.
 
 
-Execute this in  gitpod  to see the result.
+Execute this project in gitpod  to see the result.
     
-    [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/CristopherVidalMachado/concepts-of-programming-languages-lesson)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/CristopherVidalMachado/concepts-of-programming-languages-lesson)
 
 
