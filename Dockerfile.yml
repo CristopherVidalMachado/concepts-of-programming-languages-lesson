@@ -8,7 +8,7 @@ COPY . /usr/src/app
 
 WORKDIR /usr/src/app
 
-RUN gcc -o main main.c -lm && chmod +x main
+RUN gcc -o main.o main.c -lm && chmod +x main.o
 
-CMD ["./main"]
+CMD ["./main.o"]
 
