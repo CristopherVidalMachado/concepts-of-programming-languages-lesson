@@ -1,3 +1,4 @@
 tasks:
-  - name: run code
-  - command:  ./main.o
+  - name: Compile and run
+    init: gcc -o main.o main.c -lm && chmod +x main.o
+    command: ./main.o
