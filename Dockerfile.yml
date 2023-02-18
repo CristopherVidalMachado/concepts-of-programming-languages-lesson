@@ -1,0 +1,14 @@
+# Create a dockerfile to execute a code in C language
+
+FROM ubuntu:latest
+
+RUN apt-get update && apt-get install -y gcc
+
+COPY . /usr/src/app
+
+WORKDIR /usr/src/app
+
+RUN gcc -o main main.c -lm && chmod +x main
+
+CMD ["./main"]
+
